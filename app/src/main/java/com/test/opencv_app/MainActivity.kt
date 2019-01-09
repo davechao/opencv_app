@@ -20,5 +20,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        cannyBtn.setOnClickListener {
+            val intent = Intent(this, CannyImgActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }
