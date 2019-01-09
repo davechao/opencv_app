@@ -2,6 +2,7 @@
     <string name="app_name">opencv_app</string>
 
     <string name="gray">Gray</string>
+    <string name="cv_threshold">Threshold</string>
     <string name="canny">Canny</string>
 
 </resources>

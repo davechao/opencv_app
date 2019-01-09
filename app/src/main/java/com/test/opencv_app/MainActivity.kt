@@ -20,6 +20,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        thresholdBtn.setOnClickListener {
+            val intent = Intent(this, ThresholdImgActivity::class.java)
+            startActivity(intent)
+        }
+
         cannyBtn.setOnClickListener {
             val intent = Intent(this, CannyImgActivity::class.java)
             startActivity(intent)

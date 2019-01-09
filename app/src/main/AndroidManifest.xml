@@ -18,6 +18,7 @@
         </activity>
 
         <activity android:name=".GrayImgActivity" />
+        <activity android:name=".ThresholdImgActivity" />
         <activity android:name=".CannyImgActivity" />
 
     </application>

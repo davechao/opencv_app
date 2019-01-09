@@ -14,10 +14,17 @@
         android:text="@string/gray"/>
 
     <Button
+        android:id="@+id/thresholdBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cv_threshold"
+        app:layout_constraintTop_toBottomOf="@+id/grayBtn"/>
+
+    <Button
         android:id="@+id/cannyBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/canny"
-        app:layout_constraintTop_toBottomOf="@+id/grayBtn"/>
+        app:layout_constraintTop_toBottomOf="@+id/thresholdBtn"/>
 
 </android.support.constraint.ConstraintLayout>
