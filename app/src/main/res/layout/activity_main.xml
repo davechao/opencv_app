@@ -27,4 +27,12 @@
         android:text="@string/canny"
         app:layout_constraintTop_toBottomOf="@+id/thresholdBtn"/>
 
+    <Button
+        android:id="@+id/contourBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contour"
+        app:layout_constraintTop_toBottomOf="@+id/cannyBtn"/>
+
+
 </android.support.constraint.ConstraintLayout>

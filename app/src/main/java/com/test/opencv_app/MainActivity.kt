@@ -7,10 +7,6 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-    init {
-        System.loadLibrary("opencv_java3")
-    }
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -30,5 +26,9 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        contourBtn.setOnClickListener {
+            val intent = Intent(this, ContourImgActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
