@@ -34,5 +34,13 @@
         android:text="@string/contour"
         app:layout_constraintTop_toBottomOf="@+id/cannyBtn"/>
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/food"
+        app:layout_constraintTop_toBottomOf="@+id/contourBtn"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"/>
 
 </android.support.constraint.ConstraintLayout>
